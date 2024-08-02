@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>871,864</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>871,894</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -125,7 +125,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="[Process title]&#xA;[Process description]&#xA;[Additional information (e.g., author, contact information and applications involved and required external setup)]" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="703,799" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="Process title: ACME vendor details&#xA;Process description: scarpe the vendor details from vendorsmpage. Get the vendor details, check if the vendor details retived match the details in the scrapted table. If correct write the details into the excel sheet. ensure to write the details of vendors who belong to the city Brasov, Bucuresti, Koln, Moscow, Berlin.&#xA;" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="703,829" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -705,7 +705,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <Transition.To>
-                            <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="End process and close all applications used." DisplayName="End Process" sap:VirtualizedContainerService.HintSize="546,804" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True">
+                            <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="End process and close all applications used." DisplayName="End Process" sap:VirtualizedContainerService.HintSize="144,120" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True">
                               <State.Entry>
                                 <Sequence DisplayName="Sequence ; Terminate" sap:VirtualizedContainerService.HintSize="500,659" sap2010:WorkflowViewState.IdRef="Sequence_37">
                                   <sap:WorkflowViewStateService.ViewState>
